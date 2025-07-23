@@ -2,7 +2,7 @@ name: Auto Update worker
 
 on:
   schedule:
-    - cron: '0 1 * * *'    # 每天01:00 UTC运行
+    - cron: '0 2 * * *'    # 每天02:00 UTC运行
   workflow_dispatch:       # 允许手动触发
     inputs:
       release_type:
